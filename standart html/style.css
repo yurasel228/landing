@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: white;
+    --accent-color:  #a6c7cf;
+    font-family: sans-serif ,"Graphik";
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.head{
+    background:url(images/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 500px;
+    height: 930px;
+    color: #FFFFFF;
+    
+}
+.header-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.control-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 41px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .control-buttons-item {
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+    font-weight: bold;
+    padding: 0 5px;
+    font-family: "Graphik" sans-serif;
+  }
+  
+
+
+.control-buttons a {
+    font-size: 15px;
+    color: var(--main-color);
+    text-decoration: none;
+    display: inline-block;
+}
+.cover-image {
+    display: flex;
+    justify-content: center;
+}
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.title-section {
+    text-align: center;
+    margin-top: 159px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn a{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 236px;
+height: 52px;
+background: #2091F9;
+border-radius: 35px;
+font-family: sans-serif ,"Graphik";
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+
+text-decoration: none;
+
+
+
+
+  
+
+}
+.main-title h1{
+    font-family: sans-serif ,"Graphik";
+width: 672px;
+height: 168px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 74px;
+line-height: 84px;
+text-align: center;
+letter-spacing: 0.2px;
+margin-bottom: 27px;
+
+color: #FFFFFF;
+
+}
+.secondary-title p{
+    font-family: sans-serif ,"Graphik";
+    width: 766px;
+    height: 80px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-top: 27px; 
+    color: #FFFFFF;
+    margin-bottom: 90px;
+}
